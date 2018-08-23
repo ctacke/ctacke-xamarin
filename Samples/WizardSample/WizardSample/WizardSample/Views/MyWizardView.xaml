@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:t="clr-namespace:ctacke.Xamarin.Forms;assembly=ctacke.Xamarin.Forms"
+             xmlns:s="clr-namespace:WizardSample.Views.Steps"
+             x:Class="WizardSample.Views.MyWizardView">
+    <ContentPage.Content>
+        <StackLayout>
+            <t:WizardLayout
+                StepCount="3"
+                ForwardCommand="{Binding ForwardCommand}"
+                BackwardCommand="{Binding BackwardCommand}"
+                CurrentStepName="{Binding CurrentStepName}"
+                CurrentStepNumber="{Binding CurrentStepNumber}"
+                CanNavigateForward="{Binding CanNavigateForward}"
+                CanNavigateBackward="{Binding CanNavigateBackward}"
+                CurrentWizardStepContent="{Binding CurrentStepContent}"
+                WizardCancelledCommand="{Binding CancelledCommand}"
+                WizardCompleteCommand="{Binding CompletedCommand}"
+                VerticalOptions="FillAndExpand"
+                >
+            </t:WizardLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

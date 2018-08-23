@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<t:WizardStepContent xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:t="clr-namespace:ctacke.Xamarin.Forms;assembly=ctacke.Xamarin.Forms"
+             x:Class="WizardSample.Views.Steps.WizardStep2">
+    <t:WizardStepContent.Content>
+      <StackLayout
+          Orientation="Horizontal">
+            <Label Text="Hello " />
+            <Label Text="{Binding UserName}" />
+        </StackLayout>
+  </t:WizardStepContent.Content>
+</t:WizardStepContent>

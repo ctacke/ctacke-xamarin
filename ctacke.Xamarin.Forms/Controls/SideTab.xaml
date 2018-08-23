@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ctacke.Xamarin.Forms.Controls.SideTab">
+    <Image
+        Aspect="Fill"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="FillAndExpand"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=0}"
+        RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}" />
+    <Image
+        Opacity="0.0"
+        Aspect="Fill"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="FillAndExpand"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=0}"
+        RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}" />
+    <ContentView
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="FillAndExpand"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=0}"
+        RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}" />
+</RelativeLayout>
